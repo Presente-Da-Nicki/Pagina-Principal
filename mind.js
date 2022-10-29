@@ -11,7 +11,7 @@ function tema(){
 function historia(){
     valor = 2
     verificar()
-    window.open("/Historinha/cap-1/Index.html")
+    window.open("https://presente-da-nicki.github.io/Historinha-cap1/")
 }
 
 function finalizar(){
