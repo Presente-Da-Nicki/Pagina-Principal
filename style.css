@@ -1,0 +1,123 @@
+body {
+    animation: bgClaro 5s infinite alternate linear;
+    overflow: hidden;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+.titulos {
+    margin-top: 36px;
+    font-size: 60px;
+}
+
+.dark {
+    animation: bgDark 5s infinite alternate linear;
+    color: #fdf5e6;
+}
+
+.dark button {
+    color: #f4e3c4;
+    border: 3px solid #f4e3c4;
+}
+
+.dark .surpresa {
+    color: #f4e3c4;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    
+    background: transparent;
+    border: 3px solid black;
+    border-radius: 15px;
+    
+    width: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+}
+
+
+button:hover {
+    animation-name: space;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#final:disabled {
+    color: rgb(97, 88, 88);
+}
+
+#historia:disabled {
+    color: rgb(97, 88, 88);
+}
+
+.surpresa {
+    font-size: 150px;
+    color: transparent;
+    text-align: center;
+    margin: 50px auto;
+}
+
+@keyframes bgClaro {
+    0% {
+        background: #4682B4;
+    }
+
+    50% {
+        background: #e15cdb;
+    }
+
+    100% {
+        background: #bf3f59;
+    }
+}
+
+    @keyframes bgDark {
+    0% {
+        background: #191970;
+    }
+
+    50% {
+        background: #C71585;
+    }
+
+
+    100% {
+        background: #8B0000;
+    }
+
+}
+
+@keyframes space {
+
+    0% {
+        letter-spacing: 1px;
+    }
+
+    50% {
+        letter-spacing: 2px;
+    }
+
+    100% {
+        letter-spacing: 4px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .surpresa {
+        font-size: 36px;
+        }
+
+    .titulos h1 {
+        font-size: 40px;
+    }
+
+}
