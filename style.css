@@ -57,10 +57,6 @@ button:hover {
     color: rgb(97, 88, 88);
 }
 
-#historia:disabled {
-    color: rgb(97, 88, 88);
-}
-
 .surpresa {
     font-size: 150px;
     color: transparent;
