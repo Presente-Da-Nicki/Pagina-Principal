@@ -24,7 +24,7 @@ body {
 }
 
 .titulos {
-    margin: 5% 0 10% 0;
+    margin: 2% 0 5% 0;
     font-size: 60px;
 }
 
@@ -38,7 +38,7 @@ button {
     border: 3px solid black;
     border-radius: 15px;
     
-    min-width: 180px;
+    min-width: 20%;
     margin: auto;
     margin-bottom: 10px;
     padding: 2px 5px;
@@ -111,14 +111,21 @@ button:hover {
 
 @media screen and (max-width: 600px) {
     .surpresa {
-        font-size: 36px;
+        font-size: 70px;
         }
 
     .titulos {
-        font-size: 46px;
+        font-size: 44px;
+    }
+
+    .titulos::after {
+        content: "TESTE";
     }
 
     button {
-        font-size: 30px;
+        margin-top: 5%;
+        min-width: 200px;
+        font-size: x-large;
+        
     }
 }
