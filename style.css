@@ -8,10 +8,6 @@ body {
     text-align: center;
 }
 
-.titulos {
-    margin-top: 36px;
-    font-size: 60px;
-}
 
 .dark {
     animation: bgDark 5s infinite alternate linear;
@@ -27,6 +23,12 @@ body {
     color: #f4e3c4;
 }
 
+.titulos {
+    margin: 5% 0 10% 0;
+    font-size: 60px;
+}
+
+
 button {
     display: block;
     cursor: pointer;
@@ -36,7 +38,7 @@ button {
     border: 3px solid black;
     border-radius: 15px;
     
-    width: auto;
+    min-width: 180px;
     margin: auto;
     margin-bottom: 10px;
     padding: 2px 5px;
@@ -116,8 +118,11 @@ button:hover {
         font-size: 36px;
         }
 
-    .titulos h1 {
-        font-size: 40px;
+    .titulos {
+        font-size: 46px;
     }
 
+    button {
+        font-size: 30px;
+    }
 }
