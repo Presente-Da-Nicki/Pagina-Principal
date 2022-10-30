@@ -1,6 +1,5 @@
 body {
     animation: bgClaro 5s infinite alternate linear;
-    overflow: hidden;
     height: 100%;
 }
 
@@ -61,7 +60,7 @@ button:hover {
     font-size: 150px;
     color: transparent;
     text-align: center;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
 }
 
 @keyframes bgClaro {
@@ -109,17 +108,14 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:600px) {
+
     .surpresa {
-        font-size: 70px;
+        font-size: 60px;
         }
 
     .titulos {
-        font-size: 44px;
-    }
-
-    .titulos::after {
-        content: "TESTE";
+        font-size: 40px;
     }
 
     button {
