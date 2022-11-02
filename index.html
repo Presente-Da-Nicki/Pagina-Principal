@@ -22,37 +22,21 @@
         <div class="botões">
             <button id="tema" onclick="tema()">Tema</button>
             <button id="historia" onclick="historia()">Historinha</button>
-            <button id="final" onclick="finalizar()" disabled>SIM SENHOR</button>
         </div>
 
         <p class="surpresa">Eu Te Amo</p>
     </div>
 </body>
 <script defer>
-
-var valor = 0
-var final = document.getElementById("final")
-
+    
 function tema(){
     document.body.classList.toggle("dark")
 }
 
 function historia(){
-    valor = 1
     window.open("https://presente-da-nicki.github.io/Historinha-cap1/")
-    verificar()
-}
-
-function finalizar(){
-    window.open("")
     window.close()
 }
-
-function verificar(){
-    if(valor === 1){
-        final.disabled = false
-    }
-}
-
+    
 </script>
 </html>
